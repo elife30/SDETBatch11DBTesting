@@ -16,6 +16,10 @@ Rules:
     5) parameters should be different for each method either in number or in sequence or in
     Data types.
     6) we can overload constructors private methods main method.
+===============================================================================
+Overriding:
+    Overriding happens when same methods exists in parent and child class.
+Benefits:
 
 
 
