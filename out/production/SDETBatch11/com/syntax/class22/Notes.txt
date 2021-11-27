@@ -7,6 +7,9 @@ methods from all the classes.
 3) we can not store/cast a parent class object to child class variable but
 if parent type variable already contains the child object then we can
 get it back by casting it.
-
-
+FinalKeyword:
+if we write final with variable we can not change its value either we should
+initialize it right away or thorough the constructor.
+when used with method we can't override that method in child class
+when used with class we no class can extend from that class.
 
