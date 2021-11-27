@@ -13,10 +13,11 @@ public abstract class Vehicle {
         System.out.println("Grandpas constructor is called");
     }
     public void printVehicleCount(){
-        System.out.println(totalVehicles+" Vehicle creating");
+        System.out.println(totalVehicles+
+                " Vehicle creating");
     }
     public void drive(){
-        System.out.println(" Vehicle is driving ");
+        System.out.println("Vehicle is driving ");
     }
     public void stop(){
         System.out.println("Vehicle stopping");
@@ -32,49 +33,7 @@ abstract class  Car extends Vehicle{
         System.out.println("Parent constructor is called");
     }
     public void drive(){
-        System.out.println(" Car is driving ");
+        System.out.println("Car is driving ");
     }
     public abstract void speed();
-}
-
-class BMW extends Car{
-    String make;
-    String model;
-    BMW(String vinNumber,String carType,String make,String model){
-        super(carType, vinNumber);
-        this.make=make;
-        this.model=model;
-    }
-    @Override
-    public void speed() {
-        System.out.println("BMW can run 300Km/H");
-    }
-
-    @Override
-    public void start() {
-        System.out.println("BMW can start using remote");
-    }
-}
-class Toyota extends Car{
-    String make;
-    String model;
-    Toyota(String vinNumber,String carType,String make,String model){
-        super(carType, vinNumber);
-        this.make=make;
-        this.model=model;
-
-    }
-
-    @Override
-    public void speed() {
-        System.out.println("Toyota can run 200Km/H");
-    }
-
-    @Override
-    public void start() {
-        System.out.println("Toyota can start using Keys");
-    }
-    void displayInfo(){
-        System.out.println("we build "+make+" model "+model+" "+carType+" "+vinNumber);
-    }
 }
