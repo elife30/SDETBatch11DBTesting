@@ -42,7 +42,7 @@ class Lenovo extends Computer{
         System.out.println(model+ " has Windows");
     }
 
-    void laptops(){
+    void printLaptops(){
         System.out.println("Lenovo has a wide selection of laptops");
     }
 }
@@ -68,6 +68,6 @@ class Dell extends Computer{
     void printOperatingSystem() {
         System.out.println(model+" uses Windows 10");
     }
-    void services(){
+    void printServices(){
         System.out.println(model+" has good reputation of their products and services");
     }}
