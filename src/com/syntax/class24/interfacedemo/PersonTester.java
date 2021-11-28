@@ -23,6 +23,6 @@ public class PersonTester {
         sdetInstructor.eat();
         sdetInstructor.work();
         sdetInstructor.sleep();
-        //break till 12:05
+        //break till 12:10
     }
 }
