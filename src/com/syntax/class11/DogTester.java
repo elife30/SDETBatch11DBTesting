@@ -3,7 +3,6 @@ package com.syntax.class11;
 public class DogTester {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
         // Creating an object of Dog class
 		Dog alonasDog= new Dog();
 		alonasDog.name="Lexy";

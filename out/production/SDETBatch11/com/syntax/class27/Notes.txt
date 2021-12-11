@@ -15,5 +15,14 @@ time we should use LinkedList.
 Properties of List(ArrayLis,LinkedList):
 1) To maintain the insertion order
 2) We can insert duplicate data as well
+=============================
+Set
+They can't have duplicate values;
+LinkedHashSet
+Maintain the order
+HashSet
+its Fast but no order
+TreeHashSet
+no duplicates plus data is sorted
 
 
