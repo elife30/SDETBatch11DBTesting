@@ -19,6 +19,5 @@ public class Task5 {
         aList=new ArrayList<>(set);
         System.out.println(aList);
 
-
     }
 }
