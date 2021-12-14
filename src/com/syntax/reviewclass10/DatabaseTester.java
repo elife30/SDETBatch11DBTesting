@@ -7,6 +7,6 @@ public class DatabaseTester {
         dataBase.readData();
         dataBase.editData();
         dataBase.closeDataBase();
-        //Braek till 8:45
+        //Break till 8:45
     }
 }

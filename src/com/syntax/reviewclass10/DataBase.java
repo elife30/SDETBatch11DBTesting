@@ -1,7 +1,7 @@
 package com.syntax.reviewclass10;
 
 public abstract class DataBase {
-    int numberOfConnections;
+    int numberOfConnections; // we can't use abstract keyword with fields
     DataBase(int numberOfConnections){
         this.numberOfConnections=numberOfConnections;
     }
