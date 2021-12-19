@@ -31,7 +31,11 @@ Why store sensitive data in  files instead of code so that no one can access tha
     perform the testing and once testing is done we delete those files.
     2) when we have to test web forms we don't putt all the testing data inside the code
     we create files for that read the data from those files and test those web forms.
-
+=====================================
+How to create properties file in the intellij
+Right click on project->click new->Directory
+once directory is there again right click and click new file and give it an extension as
+.properties
 
 
 
