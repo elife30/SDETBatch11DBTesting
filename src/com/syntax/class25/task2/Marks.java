@@ -31,7 +31,7 @@ class A extends Marks{
 
     @Override
     double getPercentage() {
-     return MathUtil.round((course1Marks+course2Marks+course3Marks)/3,2);
+     return MathUtil.trimDecimalNumbers((course1Marks+course2Marks+course3Marks)/3,2);
     }
 }
 class B extends Marks{
@@ -43,7 +43,7 @@ class B extends Marks{
 
     @Override
     double getPercentage() {
-        return MathUtil.round((course1Marks+course2Marks+course3Marks+course4Marks)/4,2);
+        return MathUtil.trimDecimalNumbers((course1Marks+course2Marks+course3Marks+course4Marks)/4,2);
     }
 
 
