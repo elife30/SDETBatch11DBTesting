@@ -55,13 +55,9 @@ public class ExcelReader {
               excelData.add(hashMap);
           }
           //closing the file so that other programs can use it
-      }catch (FileNotFoundException e){
+      } catch (Exception e){
           e.printStackTrace();
-      }catch (IOException ioException){
-          ioException.printStackTrace();
-      }catch (Exception e){
-          e.printStackTrace();
-      }finally {
+      } finally {
           try {
               if(fileInputStream!=null)
               fileInputStream.close();

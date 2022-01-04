@@ -26,6 +26,7 @@ public class ConfigReader {
                 fileInputStream.close();
             }
         }
+        //checking if properties objects is not null so that we don't get null pointer exception
         return properties != null ? properties.getProperty(key) : null;
     }
 
