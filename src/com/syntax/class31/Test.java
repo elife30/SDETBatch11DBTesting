@@ -10,7 +10,8 @@ import java.io.IOException;
 
 public class Test {
     public static void main(String[] args) throws IOException {
-        String path="C:\\Users\\Asghar Nazir\\Desktop\\Memory\\Batch11\\ExcelData1.xlsx";
+        String path="/Users/elife/excel_course/excel_practise_asghar.xlsx";
+
         XSSFWorkbook xssfWorkbook=new XSSFWorkbook();
         XSSFSheet sheet = xssfWorkbook.createSheet("Test");
         for (int i = 0; i < 4; i++) {
